@@ -6,7 +6,7 @@ Seoul National University (Fall 2026) Biophysics: Toy MD Simulation
 
 This repository is designed to help students grasp the core concepts of molecular dynamics (MD) simulations in the SNU Biophysics course (Fall 2026). It contains simplified toy models for educational purposes only and may differ from production-grade MD simulations.
 
-Hands-on Jupyter notebooks exploring metadynamics and free energy landscape reconstruction
+Hands-on Colab notebooks on molecular dynamics and enhanced sampling methods.
 
 ## Quick Start
 
