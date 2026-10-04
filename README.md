@@ -1,4 +1,4 @@
-# interactive-metadynamics
+# md-enhanced-sampling-lab
 
 Seoul National University (Fall 2026) Biophysics: Toy MD Simulation
 
