@@ -15,13 +15,13 @@ The scientific code depends only on `numpy`, `scipy` and `matplotlib`. Work thro
 
 | # | Notebook | Colab | What it demonstrates |
 |---|---|---|---|
-| 00 | [00_md_fundamentals](notebooks/00_md_fundamentals.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HyeonjeYang/interactive-metadynamics/blob/main/notebooks/00_md_fundamentals.ipynb) | Euler, Leapfrog and Velocity Verlet on a harmonic oscillator; Maxwell–Boltzmann velocities, COM removal, kinetic temperature, initial rescaling |
-| 01 | [01_thermostats_and_barostats](notebooks/01_thermostats_and_barostats.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HyeonjeYang/interactive-metadynamics/blob/main/notebooks/01_thermostats_and_barostats.ipynb) | 2D periodic Lennard-Jones fluid: NVE vs. velocity rescaling vs. Langevin (BAOAB); Berendsen barostat |
-| 02 | [02_metastability_and_brownian_dynamics](notebooks/02_metastability_and_brownian_dynamics.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HyeonjeYang/interactive-metadynamics/blob/main/notebooks/02_metastability_and_brownian_dynamics.ipynb) | asymmetric double well, overdamped Langevin dynamics, finite-time trapping |
-| 03 | [03_well_tempered_metadynamics](notebooks/03_well_tempered_metadynamics.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HyeonjeYang/interactive-metadynamics/blob/main/notebooks/03_well_tempered_metadynamics.ipynb) | grid-based WT-MetaD, hill attenuation, free-energy reconstruction, animation |
-| 04 | [04_umbrella_sampling_and_wham](notebooks/04_umbrella_sampling_and_wham.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HyeonjeYang/interactive-metadynamics/blob/main/notebooks/04_umbrella_sampling_and_wham.ipynb) | harmonic windows, overlap diagnostics, iterative WHAM, poor vs. reasonable overlap |
-| 05 | [05_accelerated_and_gaussian_accelerated_md](notebooks/05_accelerated_and_gaussian_accelerated_md.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HyeonjeYang/interactive-metadynamics/blob/main/notebooks/05_accelerated_and_gaussian_accelerated_md.ipynb) | aMD boost and exponential reweighting; GaMD parameter rules, boost statistics, cumulant reweighting |
-| 06 | [06_replica_exchange_and_method_comparison](notebooks/06_replica_exchange_and_method_comparison.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HyeonjeYang/interactive-metadynamics/blob/main/notebooks/06_replica_exchange_and_method_comparison.ipynb) | T-REMD and H-REMD, ladder spacing, method comparison against the exact 1D profile |
+| 00 | [00_md_fundamentals](notebooks/00_md_fundamentals.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HyeonjeYang/md-enhanced-sampling-lab/blob/main/notebooks/00_md_fundamentals.ipynb) | Euler, Leapfrog and Velocity Verlet on a harmonic oscillator; Maxwell–Boltzmann velocities, COM removal, kinetic temperature, initial rescaling |
+| 01 | [01_thermostats_and_barostats](notebooks/01_thermostats_and_barostats.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HyeonjeYang/md-enhanced-sampling-lab/blob/main/notebooks/01_thermostats_and_barostats.ipynb) | 2D periodic Lennard-Jones fluid: NVE vs. velocity rescaling vs. Langevin (BAOAB); Berendsen barostat |
+| 02 | [02_metastability_and_brownian_dynamics](notebooks/02_metastability_and_brownian_dynamics.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HyeonjeYang/md-enhanced-sampling-lab/blob/main/notebooks/02_metastability_and_brownian_dynamics.ipynb) | asymmetric double well, overdamped Langevin dynamics, finite-time trapping |
+| 03 | [03_well_tempered_metadynamics](notebooks/03_well_tempered_metadynamics.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HyeonjeYang/md-enhanced-sampling-lab/blob/main/notebooks/03_well_tempered_metadynamics.ipynb) | grid-based WT-MetaD, hill attenuation, free-energy reconstruction, animation |
+| 04 | [04_umbrella_sampling_and_wham](notebooks/04_umbrella_sampling_and_wham.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HyeonjeYang/md-enhanced-sampling-lab/blob/main/notebooks/04_umbrella_sampling_and_wham.ipynb) | harmonic windows, overlap diagnostics, iterative WHAM, poor vs. reasonable overlap |
+| 05 | [05_accelerated_and_gaussian_accelerated_md](notebooks/05_accelerated_and_gaussian_accelerated_md.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HyeonjeYang/md-enhanced-sampling-lab/blob/main/notebooks/05_accelerated_and_gaussian_accelerated_md.ipynb) | aMD boost and exponential reweighting; GaMD parameter rules, boost statistics, cumulant reweighting |
+| 06 | [06_replica_exchange_and_method_comparison](notebooks/06_replica_exchange_and_method_comparison.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HyeonjeYang/md-enhanced-sampling-lab/blob/main/notebooks/06_replica_exchange_and_method_comparison.ipynb) | T-REMD and H-REMD, ladder spacing, method comparison against the exact 1D profile |
 
 ### Google Colab
 
@@ -30,8 +30,8 @@ Click a badge above. The first code cell of each notebook clones this repository
 ### Local Jupyter
 
 ```bash
-git clone https://github.com/HyeonjeYang/interactive-metadynamics.git
-cd interactive-metadynamics
+git clone https://github.com/HyeonjeYang/md-enhanced-sampling-lab.git
+cd md-enhanced-sampling-lab
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
 python -m pip install -r requirements.txt
