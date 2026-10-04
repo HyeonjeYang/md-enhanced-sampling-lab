@@ -33,7 +33,7 @@ Click a badge above. The first code cell of each notebook clones this repository
 git clone https://github.com/HyeonjeYang/interactive-metadynamics.git
 cd interactive-metadynamics
 python -m venv .venv
-source .venv/bin/activate          # Windows: .venv\Scriptsctivate
+source .venv/bin/activate          # Windows: .venv\Scripts\activate
 python -m pip install -r requirements.txt
 python -m pip install jupyterlab    # Jupyter itself is not a scientific dependency
 jupyter lab
